@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.logIn.RegisterFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Fragment_Create_New_account_Et_Name"
+
+                    style="@style/EditText"
+                    android:hint="@string/name" />
+
+                <EditText
+                    android:id="@+id/Fragment_Create_New_account_Et_Email"
+
+                    style="@style/EditText"
+                    android:hint="@string/email" />
+
+                <TextView
+                    android:id="@+id/Fragment_Create_New_account_Et_Birth_Date"
+
+                    android:drawableEnd="@drawable/ic_calender1"
+
+                    style="@style/EditText"
+                    android:hint="@string/birth_date" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_bg">
+                    <Spinner
+                        android:id="@+id/Fragment_Create_New_account_Sp_Blood_No"
+
+                        android:padding="@dimen/dimens_l"
+                        android:textAlignment="viewStart"
+                        android:entries="@array/blood_no_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </Spinner>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/_Fragment_Create_New_account_Et_Last_Donation_Date"
+
+                    android:drawableEnd="@drawable/ic_calender1"
+
+                    style="@style/EditText"
+                    android:hint="@string/last_given_date" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:padding="@dimen/dimens_l"
+                        android:id="@+id/Fragment_Create_New_account_Sp_Government"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/government_spinner">
+
+
+                    </Spinner>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/Fragment_Create_New_account_Sp_City"
+
+                        android:padding="@dimen/dimens_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/city_spinner">
+                    </Spinner>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/Fragment_Create_New_account_Et_Phone"
+
+                    style="@style/EditText"
+                    android:hint="@string/mobile" />
+
+                <EditText
+                    android:id="@+id/Fragment_Create_New_account_Et_Password"
+
+                    style="@style/EditText"
+                    android:inputType="textPassword"
+                    android:hint="@string/password" />
+
+                <EditText
+                    android:id="@+id/Fragment_Create_New_account_Et_Confirm_Password"
+
+                    style="@style/EditText"
+                    android:hint="@string/confirm_password" />
+                <Button
+                    android:id="@+id/Fragment_Create_New_account_Btn_Create"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/record"
+                    style="@style/GreenButton"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+

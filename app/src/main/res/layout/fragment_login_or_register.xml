@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.logIn.LoginOrRegisterFragment">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimens_m">
+
+            <ImageView
+
+                android:layout_width="@dimen/dimen_10xl"
+                android:layout_height="@dimen/dimen_10xl"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dimens_m"
+                android:src="@drawable/ic_logo" />
+
+            <EditText
+                android:id="@+id/mobile_et"
+                style="@style/EditText"
+                android:hint="@string/mobile" />
+
+            <EditText
+                android:id="@+id/password_et"
+                style="@style/EditText"
+
+                android:hint="@string/password" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimens_m">
+
+                <CheckBox
+                    android:id="@+id/remember_cb"
+                    style="@style/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_centerVertical="true"
+                    android:text="@string/remember"
+
+                    />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/forget_password_tv"
+                    style="@style/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/did_forget_password"
+
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/warning"
+                    android:layout_width="@dimen/dimens_l"
+                    android:layout_height="@dimen/dimens_l"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/forget_password_tv"
+                    android:src="@drawable/ic_warning" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                style="@style/GreenButton"
+                android:text="@string/log_in"
+
+                />
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_l"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/create_account"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+
+</LinearLayout>

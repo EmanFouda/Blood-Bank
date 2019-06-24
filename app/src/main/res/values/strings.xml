@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="copy_right">"جميع الحقوق محفوظة ل شركة ابداع تك للبرمجيات 2018"</string>
+    <string name="skip">skip</string>
+    <string name="Age">age</string>
+    <string name="no_of_bags">number of bags</string>
+    <string name="hospital_address">hosiptal address</string>
+    <string name="my_information">my information</string>
+    <string name="notification_settings">notification settings</string>
+    <string name="favorites">favorites</string>
+    <string name="main">main</string>
+    <string name="use_instruction">use instruction</string>
+    <string name="contact_us">contact us</string>
+    <string name="about_app">about app</string>
+    <string name="app_assessment">app assessment on google play</string>
+    <string name="log_out">log out</string>
+    <string name="change_password_code">change password code</string>
+    <string name="check_code">check code</string>
+    <string name="new_password">new password</string>
+    <string name="cofirm_new_password">cofirm new password</string>
+    <string name="mobile">mobile</string>
+    <string name="password">password</string>
+    <string name="remember">remember</string>
+    <string name="did_forget_password">did forget password?</string>
+    <string name="log_in">log in</string>
+    <string name="create_account">create new account</string>
+    <string name="i_forget_password">I Forget Password</string>
+    <string name="change_password">change password</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="birth_date">birth date</string>
+    <string name="government">government</string>
+    <string name="city">city</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="blood_no">blood category</string>
+    <string name="last_given_date">last donation date</string>
+    <string name="record">record</string>
+    <string name="enter_research_word_here">enter research word here</string>
+    <string name="notes">notes</string>
+    <string name="send_request">send request</string>
+    <string name="cancel">cancel</string>
+    <string name="GPSAlertDialogTitle">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage">GPSAlertDialogMessage</string>
+    <string-array name="government_spinner">
+
+    </string-array>
+    <string-array name="city_spinner">
+
+    </string-array>
+    <string-array name="blood_no_spinner">
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>O</item>
+        <item>O+</item>
+    </string-array>
+    <string-array name="blood_bags">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="donation_request">donation request</string>
+    <string name="articles">articles</string>
+    <string name="patiant_name">patiant name</string>
+    <string name="hospital_name">hospital name</string>
+    <string name="city_name">city name</string>
+    <string name="details">details</string>
+    <string name="dial">dial</string>
+    <string name="update">update</string>
+    <string name="send">send</string>
+    <string name="data_updating">updating notificationSetingsData</string>
+    <string name="contac_mobile">mobil:124123412312</string>
+    <string name="contact_email">email:name@name</string>
+    <string name="message_title">message title</string>
+    <string name="message_body">message body</string>
+    <string name="conact_header">conact us</string>
+    <string name="notify_for_your_request">notify for your request</string>
+    <string-array name="patiant_name">
+
+    </string-array>
+    <string-array name="article">
+
+
+    </string-array>
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>
